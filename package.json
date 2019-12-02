@@ -1,0 +1,35 @@
+{
+	"name": "pandemic-server",
+	"description": "Pandemic Server",
+	"version": "0.1.0",
+	"license": "UNLICENSED",
+	"private": true,
+	"homepage": ".",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha --recursive --exit",
+		"start": "node --no-warnings ."
+	},
+	"devDependencies": {
+		"mocha": "latest",
+		"socket.io-client": "latest"
+	},
+	"dependencies": {
+		"ajv": "latest",
+		"app-module-path": "latest",
+		"axios": "latest",
+		"custom-env": "latest",
+		"debug": "latest",
+		"discord-sensei": "latest",
+		"discord.js": "latest",
+		"geolib": "latest",
+		"listr": "latest",
+		"lokijs": "latest",
+		"mini-dice": "latest",
+		"minimatch": "latest",
+		"node-cron": "latest",
+		"shortid": "latest",
+		"socket.io": "latest",
+		"socketio-wildcard": "latest"
+	}
+}

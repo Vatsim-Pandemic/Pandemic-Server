@@ -1,0 +1,223 @@
+[
+  {
+    "name": "Boston",
+    "airport": "KBOS",
+    "type": ["lab", "start", "infection"],
+    "position": {
+      "latitude": 42.36,
+      "longitude": -71.01
+    },
+    "region": {
+      "radius": 20
+    },
+    "connections": ["KACK", "KHYA", "KPVD", "KPSM", "KMHT", "KORH"]
+  },
+  {
+    "name": "Nantucket",
+    "airport": "KACK",
+    "type": ["infection"],
+    "position": {
+      "latitude": 41.25,
+      "longitude": -70.06
+    },
+    "connections": ["KHYA", "KMVY", "KGON"]
+  },
+  {
+    "name": "Providence",
+    "airport": "KPVD",
+    "type": ["infection"],
+    "position": {
+      "latitude": 41.73,
+      "longitude": -71.42
+    },
+    "region": {
+      "radius": 10
+    },
+    "connections": ["KMVY", "KGON", "KBOS", "KBDL"]
+  },
+  {
+    "name": "Groton",
+    "airport": "KGON",
+    "type": ["infection"],
+    "position": {
+      "latitude": 41.33,
+      "longitude": -72.04
+    },
+    "region": {
+      "area": [
+        {
+          "latitude": 41.4134,
+          "longitude": -72.1837
+        },
+        {
+          "latitude": 41.2319,
+          "longitude": -72.0647
+        },
+        {
+          "latitude": 41.3794,
+          "longitude": -71.6685
+        }
+      ]
+    },
+    "connections": ["KACK", "KBDL", "KPVD"]
+  },
+  {
+    "name": "Windsor Locks",
+    "airport": "KBDL",
+    "type": ["infection"],
+    "position": {
+      "latitude": 41.94,
+      "longitude": -72.68
+    },
+    "region": {
+      "radius": 10
+    },
+    "connections": ["KORH", "KMHT", "KALB", "KGON", "KPVD", "KBAF"]
+  },
+  {
+    "name": "Worcester",
+    "type": ["infection"],
+    "airport": "KORH",
+    "position": {
+      "latitude": 42.27,
+      "longitude": -71.88
+    },
+    "connections": ["KBDL", "KBOS", "KMHT"]
+  },
+  {
+    "name": "Albany",
+    "type": ["infection"],
+    "airport": "KALB",
+    "position": {
+      "latitude": 42.75,
+      "longitude": -73.8
+    },
+    "region": {
+      "radius": 15
+    },
+    "connections": ["KSYR", "KBAF", "KBDL", "KMHT", "KLEB", "KBTV", "KRME"]
+  },
+  {
+    "name": "Syracuse",
+    "type": ["infection"],
+    "airport": "KSYR",
+    "position": {
+      "latitude": 43.11,
+      "longitude": -76.11
+    },
+    "region": {
+      "radius": 10
+    },
+    "connections": ["KBTV", "KRME", "KALB"]
+  },
+  {
+    "name": "Burlington",
+    "type": ["infection"],
+    "airport": "KBTV",
+    "position": {
+      "latitude": 44.47,
+      "longitude": -73.15
+    },
+    "connections": ["KSYR", "KRME", "KLEB", "KALB", "KBGR"]
+  },
+  {
+    "name": "Bangor",
+    "type": ["infection"],
+    "airport": "KBGR",
+    "position": {
+      "latitude": 44.81,
+      "longitude": -68.83
+    },
+    "connections": ["KBTV", "KPWM", "KLEB"]
+  },
+  {
+    "name": "Lebanon",
+    "type": ["infection"],
+    "airport": "KLEB",
+    "position": {
+      "latitude": 43.62,
+      "longitude": -72.3
+    },
+    "connections": ["KBTV", "KBGR", "KPWM", "KMHT", "KALB"]
+  },
+  {
+    "name": "Providence",
+    "type": ["infection"],
+    "airport": "KPVD",
+    "position": {
+      "latitude": 41.73,
+      "longitude": -71.42
+    },
+    "connections": ["KGON", "KBDL", "KMVY", "KBOS"]
+  },
+  {
+    "name": "Portland",
+    "type": ["infection"],
+    "airport": "KPWM",
+    "position": {
+      "latitude": 43.65,
+      "longitude": -70.31
+    },
+    "connections": ["KBGR", "KPSM", "KLEB", "KMHT"]
+  },
+  {
+    "name": "Portsmouth",
+    "type": ["infection"],
+    "airport": "KPSM",
+    "position": {
+      "latitude": 43.08,
+      "longitude": -70.82
+    },
+    "connections": ["KMHT", "KBOS", "KPWM"]
+  },
+  {
+    "name": "Manchester",
+    "type": ["infection"],
+    "airport": "KMHT",
+    "position": {
+      "latitude": 42.93,
+      "longitude": -71.44
+    },
+    "connections": ["KPSM", "KPWM", "KLEB", "KORH", "KBDL", "KBOS", "KALB"]
+  },
+  {
+    "name": "Hyannis",
+    "type": ["infection"],
+    "airport": "KHYA",
+    "position": {
+      "latitude": 41.67,
+      "longitude": -70.28
+    },
+    "connections": ["KBOS", "KMVY", "KACK"]
+  },
+  {
+    "name": "Martha's Vineyard",
+    "type": ["infection"],
+    "airport": "KMVY",
+    "position": {
+      "latitude": 41.39,
+      "longitude": -70.61
+    },
+    "connections": ["KHYA", "KACK", "KPVD"]
+  },
+  {
+    "name": "Westfield",
+    "type": ["infection"],
+    "airport": "KBAF",
+    "position": {
+      "latitude": 42.16,
+      "longitude": -72.72
+    },
+    "connections": ["KALB", "KBDL", "KMHT"]
+  },
+  {
+    "name": "Rome",
+    "type": ["infection"],
+    "airport": "KRME",
+    "position": {
+      "latitude": 43.23,
+      "longitude": -75.41
+    },
+    "connections": ["KSYR", "KALB", "KBTV"]
+  }
+]

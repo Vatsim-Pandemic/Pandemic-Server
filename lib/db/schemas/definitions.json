@@ -1,0 +1,55 @@
+{
+	"shortid": {
+		"$id": "#shortid",
+		"type": "string",
+		"pattern": "^[a-zA-Z0-9_-]{7,14}$"
+	},
+	"timestamp": {
+		"$id": "#timestamp",
+		"type": "string",
+		"format": "date-time"
+	},
+	"flight": {
+		"$id": "#flight",
+		"type": ["string", "integer"]
+	},
+	"callsign": {
+		"$id": "#callsign",
+		"type": "string",
+		"pattern": "^[A-Z0-9]*$"
+	},
+	"airport": {
+		"$id": "#airport",
+		"type": "string",
+		"pattern": "^[A-Z]{3,4}$"
+	},
+	"zone": {
+		"$id": "#zone",
+		"type": "string",
+		"pattern": "^[A-Z]{3,4}$"
+	},
+	"dice": {
+		"$id": "#dice",
+		"type": "string",
+		"pattern": "^[0-9]?d[0-9]{1,2}$"
+	},
+	"code": {
+		"$id": "#code",
+		"type": "string",
+		"pattern": "^[A-Z0-9]*$"
+	},
+	"position": {
+		"$id": "#position",
+		"type": "object",
+		"properties": {
+			"latitude": {
+				"type": "number"
+			},
+			"longitude": {
+				"type": "number"
+			}
+		},
+		"required": ["latitude", "longitude"],
+		"additionalProperties": false
+	}
+}

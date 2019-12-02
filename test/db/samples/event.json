@@ -1,0 +1,53 @@
+{
+	"code": "PAN40",
+	"name": "60 Hours of Pandemic",
+	"settings": {
+		"samples": "1d4",
+		"infection": {
+			"startingCards": 5,
+			"rollInterval": 4,
+			"pandemicCards": 3
+		},
+		"cure": {
+			"capLevel": true
+		}
+	},
+	"area": [
+		{
+			"latitude": 41.6175,
+			"longitude": -67.0172
+		},
+		{
+			"latitude": 40.095,
+			"longitude": -72.5172
+		},
+		{
+			"latitude": 42.3433,
+			"longitude": -76.0526
+		},
+		{
+			"latitude": 43.6276,
+			"longitude": -76.7984
+		},
+		{
+			"latitude": 44.3513,
+			"longitude": -76.059
+		},
+		{
+			"latitude": 45.027,
+			"longitude": -71.5298
+		},
+		{
+			"latitude": 47.4634,
+			"longitude": -69.2117
+		},
+		{
+			"latitude": 47.1785,
+			"longitude": -67.789
+		},
+		{
+			"latitude": 44.8364,
+			"longitude": -66.9265
+		}
+	]
+}
