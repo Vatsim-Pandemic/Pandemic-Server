@@ -1,0 +1,6 @@
+# Ignore all vscode and environment files
+**/.env
+**/.vs/
+
+# Ignore installed node modules
+node_modules/

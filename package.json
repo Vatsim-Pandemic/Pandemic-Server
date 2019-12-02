@@ -20,7 +20,7 @@
 		"axios": "latest",
 		"custom-env": "latest",
 		"debug": "latest",
-		"discord-sensei": "latest",
+		"discord-sensei": "Vatsim-Pandemic/sensei",
 		"discord.js": "latest",
 		"geolib": "latest",
 		"listr": "latest",
